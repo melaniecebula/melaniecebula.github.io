@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Le styles -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/melaniecebula.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+</head>
+
+
+<body>
+
+<div class="container">
+
+<!-------->
+<div id="content">
+    <div id="header"> Melanie Cebula </div>
+    <ul id="tabs" class="nav nav-pills custom" data-tabs="tabs">
+        <li id ="tab1" class="active"><a href="#home" data-toggle="tab">Home</a></li>
+        <li id="tab2"><a href="#about" data-toggle="tab">About Me</a></li>
+        <li id="tab3"><a href="#projects" data-toggle="tab">Projects</a></li>
+        <li id="tab4"><a href="#contact" data-toggle="tab">Contact</a></li>
+        <li id="tab5"><a href="#blog" data-toggle="tab">Blog</a></li>
+    </ul>
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="home">
+            <h1>Hello!</h1>
+                <p>My name is <strong>Melanie</strong>.  I've just started studying <strong>Computer Science</strong> at the <strong>University of California, Berkeley</strong>.  Besides software and web development, I'm interested in skill acquisition, design, and instrumental music.  If you want to hear more about those things, check out my story <span id="aboutlink"> <a href="index.html#about">here</a> </span>.  Otherwise, you can check out my <a href="file:///home/melanie/personal_website/index.html#projects"> projects </a> or stalk me in <a href="file:///home/melanie/personal_website/index.html#contact">other</a> ways.
+                </p>
+        </div>
+        <div class="tab-pane" id="about">
+            <h1>About Me</h1>
+            <h2>My Musical Past</h2>
+                <p>I really liked playing the upright bass.  Still do.  But I had actually planned on attending music conservatory.  I spent a lot of my time in high school commuting all around Southern California to learn, rehearse, and perform.  On occassion I would go upstate or tour with a group in a foreign country.</p>
+                <p>When you first start playing an instrument, its the pressing things you work on: hand position, intonation, bow placement.  But the wonderful thing is, after a few years things begin to change.  You realize that if you play this note 'just so', with the bow at this speed, placed here, with this note being eased into, with this amount of vibrato, etc- you realize that this is exactly, perfectly what you want.  And if you can get not one or two notes, but perhaps an entire piece mastered in this way, the feeling is indescribable. </p>
+                <br>
+            <h2>Skill Acquisition</h2>
+                <p>It took a lot of courage and honesty to realize that I didn't want to spend my entire life being just a musician; I wanted to spend my entire life acquiring and honing as many skills as I could.  I wanted the freedom to pursue not just one, but many wonderful, fascinating interests.</p>
+                <p>And so, having not focused on classes or grades in many years, it was with trepidation that I applied to UC Berkeley.  But amazingly, I managed to get in, and I don't plan to waste a single minute.  </p>
+                <br>
+                <h2>Berkeley</h2>
+                <p>I am now a freshman as UC Berkeley, and plan on majoring in Computer Science.  I am grateful for the unparalleled opportunity of meeting the dedicated members of Hackers @ Berkeley on campus.  I look forward to learning, collaborating, and contributing with the brilliant students here.  I continue to play music in spare time, as well as write and cook.
+                </p>
+        </div>
+        <div class="tab-pane" id="projects">
+            <h1>Projects</h1>
+                <p>My personal website!  Really, that's pretty much it.  I've just started.  Unless you include that other website I made when I was in grade school, and no I am not linking that.  Skills learned: HTML5, CSS3, Twitter Bootstrap, Node.js
+                </p>
+        </div>
+        <div class="tab-pane" id="contact">
+            <h1>Say Hello!</h1>
+            <p>I'm not famous, and only a little bit busy!  You can spam me in all of the following exciting ways:
+                <br>
+                <br> <a href="www.facebook.com/melaniecebula">facebook</a>
+                <br><a href="www.linkedin.com/melaniecebula">linkedin<a>
+                <br><a href="">email</a>
+                <br><a href="www.github.com/melaniecebula">github</a>
+                <br>
+            </p>
+        </div>
+        <div class="tab-pane" id="blog">
+            <h1>Thoughts</h1>
+                <p>Nothing appears to be here!  (also, the blog project hasn't been started yet)</p>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        // Javascript to enable link to tab
+        var hash = document.location.hash;
+        var prefix = "tab_";
+        if (hash) {
+            $('.nav a[href='+hash.replace(prefix,"")+']').tab('show');
+        } 
+
+        // Change hash for page-reload
+        $('.nav a').on('shown', function (e) {
+            window.location.hash = e.target.hash.replace("#", "#" + prefix);
+        });
+
+
+        $('#tabs').tab();
+    });
+</script>    
+</div> <!-- container -->
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>

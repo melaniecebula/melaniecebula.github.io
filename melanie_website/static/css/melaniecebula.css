@@ -1,0 +1,222 @@
+/*First time implementing css.  A bit messy*/
+
+/*When hovering on a pill, and on an active pill, hide firefox's dotted lines */
+#tabs.custom > .active > a, .nav-pills > .active > a:hover, #tabs.nav.nav-pills.custom > li > a:hover  {
+  outline: 0;
+} 
+
+/*all tabs have different colors, and darker versions of those colors when hovered and acive */
+
+#tab1 > a {
+  color:white;
+  background-color: #992912;
+
+}
+
+#tab1 > a:hover,  #tab1.active > a{
+  color:white;
+  background-color: #721603;
+}
+
+#tab2 > a {  
+  color: white;
+  background-color: #BD5A22;
+}
+
+#tab2 > a:hover,  #tab2.active > a{
+  color:white;
+  background-color: #a14511;
+}
+
+#tab3 > a {
+  color:white;
+  background-color: #E9B131;
+}
+
+#tab3 > a:hover,  #tab3.active > a{
+  color:white;
+  background-color: #cb9928;
+}
+
+#tab4 > a {
+  color:white;
+  background-color: #669314;
+}
+
+#tab4 > a:hover,  #tab4.active > a{
+  color:white;
+  background-color: #496d09;
+}
+
+#tab5 > a {
+  color:white;
+  background-color: #AECC23;
+}
+
+#tab5 > a:hover,  #tab5.active > a{
+  color:white;
+  background-color: #819817;
+}
+
+/*background color so subtle it pretty much looks like the default */
+
+.tab-pane {
+  font-weight: 100;
+  font-size: 150%;
+  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+ 
+}
+
+body {
+  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+  width: 100%; 
+  height: 100%; 
+
+}
+
+.container {
+  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+  margin-bottom: 13%;
+}
+
+#content {
+  padding-bottom: 20%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#header {
+  text-align:center;
+  width:100%;
+  font-weight: 100;
+  font-size: 300%;
+ 
+}
+
+#tabs {
+  padding-top: 5%;
+
+}
+
+.nav-tabs >li, .nav-pills > li {
+  float: none;
+  display: inline-block;
+
+}
+
+.nav-tabs, .nav-pills {
+  text-align: center;
+}
+
+.tab-content {
+  border-top: 2px inset #929090;
+  border-bottom: 2px inset #929090;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+#header {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 59px;
+    line-height: 60px;
+    font-weight:550;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+h1 {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 29px;
+    line-height: 30px;
+    font-weight:525;
+    text-shadow: 1px 1px 1px #ccc;
+}
+ 
+h2 {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    line-height: 26px;
+    font-weight:550;
+    text-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+
+}
+p {
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 15px;
+}
+
+strong {
+  font-weight: 550;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*p { text-align: center}
+h1 {text-align: center}
+*/
+/*
+.nav-tabs > li, .nav-pills > li {
+    float:left;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     /*zoom:1; /* hasLayout ie7 trigger */
+     /*position: relative;
+}
+/*
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+*/
+/* time to learn about positioning */
+/*
+.container {
+  border: 1px solid black;
+  float: left;
+}
+
+#content {
+  border: 1px solid red;
+  float: left;
+}
+
+#tabs {
+  border: 1px solid blue;
+  float: left;
+  text-align: center
+}
+
+.nav.nav-pills.custom {
+  border: 1px dotted orange;
+  float:left;
+}
+
+#my-tab-content {
+  border:1px solid green;
+  text-align: center;
+  float: left;
+}
+
+.tab-content {
+  border: 1px dotted blue;
+  float: left;
+}
+
+.tab-pane {
+  border: 1px dotted yellow;
+  float: left;
+}
+
+*/
