@@ -71,6 +71,7 @@
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         // Javascript to enable link to tab
+        /*
         var hash = document.location.hash;
         var prefix = "tab_";
         if (hash) {
@@ -81,8 +82,73 @@
         $('.nav a').on('shown', function (e) {
             window.location.hash = e.target.hash.replace("#", "#" + prefix);
         });
-
-
+*/
+         
+        (function( $ ){
+         
+          function activate ( element, container ) {
+            container.find('.active').removeClass('active')
+            element.addClass('active')
+          }
+         
+          function tab( e ) {
+            var $this = $(this)
+              , href = $this.attr('href')
+              , $ul = $(e.liveFired)
+              , $controlled
+         
+            if (/^#\w+/.test(href)) {
+              e.preventDefault()
+              location.href = location.href.replace(/#.*/,'') + href
+         
+              if ($this.hasClass('active')) {
+                return
+              }
+         
+              $href = $(href)
+         
+              activate($this.parent(), $ul)
+              activate($href, $href.parent())
+            }
+          }
+         
+         
+         /* TABS/PILLS PLUGIN DEFINITION
+          * ============================ */
+         
+          $.fn.tabs = $.fn.pills = function ( selector ) {
+            return this.each(function () {
+              $(this).delegate(selector || '.tabs li > a, .pills > li > a', 'click', tab)
+            })
+          }
+         
+          $(function () {
+            $('body').tabs('ul[data-tabs] li > a, ul[data-pills] > li > a')
+          })
+         
+          // Hashchange support for all modern browsers, and ie8+
+          // Integrate Ben Alman's hashchange plugin for ie6-7 support
+          // http://goo.gl/7ezFB
+         
+          var url = location.href
+         
+          $(window).bind('load hashchange', function () {
+            var $target = $(".tab-content :target, .pill-content :target")
+              , $tab
+              , href
+         
+            if ($target.length) {
+              href = '#' + $target.attr('id')
+              $tab = $('.tabs a[href=' + href + '], .pills a[herf=' + href + ']')
+              activate($tab.parent(), $tab.parents('ul:first'))
+              activate($target, $target.parent())
+            } else if (url == location.href){
+              activate($('.tabs li:first, .pills li:first'), $('.tabs, .pills'))
+              activate($('.tab-content :first, .pill-content :first'), $('.tab-content, .pill-content'))
+            }
+          })
+         
+        })( jQuery || ender )
         $('#tabs').tab();
     });
 </script>    
