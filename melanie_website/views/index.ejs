@@ -27,7 +27,7 @@
     <div id="my-tab-content" class="tab-content">
         <div class="tab-pane active" id="home">
             <h1>Hello!</h1>
-                <p>My name is <strong>Melanie</strong>.  I've just started studying <strong>Computer Science</strong> at the <strong>University of California, Berkeley</strong>.  Besides software and web development, I'm interested in skill acquisition, design, and instrumental music.  If you want to hear more about those things, check out my story <span id="aboutlink"> <a href="http://www.melaniecebula.com/#tab_about">here</a> </span>.  Otherwise, you can check out my <a href="http://www.melaniecebula.com/#tab_projects"> projects </a> or stalk me in <a href="http://www.melaniecebula.com/#tab_contact">other</a> ways.
+                <p>My name is <strong>Melanie</strong>.  I've just started studying <strong>Computer Science</strong> at the <strong>University of California, Berkeley</strong>.  Besides software and web development, I'm interested in skill acquisition, design, and instrumental music.
                 </p>
         </div>
         <div class="tab-pane" id="about">
@@ -46,7 +46,9 @@
         </div>
         <div class="tab-pane" id="projects">
             <h1>Projects</h1>
-                <p>My personal website!  Really, that's pretty much it.  I've just started.  Unless you include that other website I made when I was in grade school, and no I am not linking that.  Skills learned: HTML5, CSS3, Twitter Bootstrap, Node.js
+                <p><strong>My personal website!</strong>  Skills learned: HTML5, CSS3, Twitter Bootstrap, Node.js. Look at the code on <a href= "https://github.com/melaniecebula/personal-website"> github </a>
+                </p>
+                <p><strong>Rate My Cat:</strong> Where we get back to what the internet is at its core: <strong>cat pics.</strong>  Skills learned: MongoDB, Flask, PyMongo, Jinja.  Look at the code on <a href= "https://github.com/melaniecebula/RateMyCat"> github </a>
                 </p>
         </div>
         <div class="tab-pane" id="contact">
@@ -83,72 +85,17 @@
             window.location.hash = e.target.hash.replace("#", "#" + prefix);
         });
 */
-         
-        (function( $ ){
-         
-          function activate ( element, container ) {
-            container.find('.active').removeClass('active')
-            element.addClass('active')
-          }
-         
-          function tab( e ) {
-            var $this = $(this)
-              , href = $this.attr('href')
-              , $ul = $(e.liveFired)
-              , $controlled
-         
-            if (/^#\w+/.test(href)) {
-              e.preventDefault()
-              location.href = location.href.replace(/#.*/,'') + href
-         
-              if ($this.hasClass('active')) {
-                return
-              }
-         
-              $href = $(href)
-         
-              activate($this.parent(), $ul)
-              activate($href, $href.parent())
-            }
-          }
-         
-         
-         /* TABS/PILLS PLUGIN DEFINITION
-          * ============================ */
-         
-          $.fn.tabs = $.fn.pills = function ( selector ) {
-            return this.each(function () {
-              $(this).delegate(selector || '.tabs li > a, .pills > li > a', 'click', tab)
-            })
-          }
-         
-          $(function () {
-            $('body').tabs('ul[data-tabs] li > a, ul[data-pills] > li > a')
-          })
-         
+
           // Hashchange support for all modern browsers, and ie8+
           // Integrate Ben Alman's hashchange plugin for ie6-7 support
           // http://goo.gl/7ezFB
          
-          var url = location.href
          
-          $(window).bind('load hashchange', function () {
-            var $target = $(".tab-content :target, .pill-content :target")
-              , $tab
-              , href
-         
-            if ($target.length) {
-              href = '#' + $target.attr('id')
-              $tab = $('.tabs a[href=' + href + '], .pills a[herf=' + href + ']')
-              activate($tab.parent(), $tab.parents('ul:first'))
-              activate($target, $target.parent())
-            } else if (url == location.href){
-              activate($('.tabs li:first, .pills li:first'), $('.tabs, .pills'))
-              activate($('.tab-content :first, .pill-content :first'), $('.tab-content, .pill-content'))
-            }
-          })
-         
-        })( jQuery || ender )
+         $(window).on('load hashchange', function(data){
+            console.log("Hashchange")
+            console.log(data)   //hashchange is occurring 
+         })
+
         $('#tabs').tab();
     });
 </script>    
