@@ -1,15 +1,4 @@
-var forever = require('forever');
 
-  var child = new (forever.Forever)('server.js', {
-    max: 3,
-    silent: true,
-    options: []
-  });
-
-  child.on('exit', this.callback);
-  child.start();
-
-//trying out Forever for server 
 var express = require('express');
 var app = express();
 
