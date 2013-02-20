@@ -154,7 +154,8 @@ strong {
   text-shadow: 1px 1px 1px #ccc;
 }
 
-
+a {color: green;}
+a:hover { color: orange;}
 
 
 
