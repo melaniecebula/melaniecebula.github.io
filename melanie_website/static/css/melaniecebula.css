@@ -63,19 +63,19 @@
 .tab-pane {
   font-weight: 100;
   font-size: 150%;
-  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+  background: url(../img/cream_dust_transparent.png) repeat 0 0;
  
 }
 
 body {
-  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+  background: url(../img/cream_dust_transparent.png) repeat 0 0;
   width: 100%; 
   height: 100%; 
 
 }
 
 .container {
-  background: url(/img/cream_dust_transparent.png) repeat 0 0;
+  background: url(../img/cream_dust_transparent.png) repeat 0 0;
   margin-bottom: 13%;
 }
 
@@ -164,60 +164,3 @@ a:hover { color: orange;}
 
 
 
-
-/*p { text-align: center}
-h1 {text-align: center}
-*/
-/*
-.nav-tabs > li, .nav-pills > li {
-    float:left;
-    display:inline-block;
-    *display:inline; /* ie7 fix */
-     /*zoom:1; /* hasLayout ie7 trigger */
-     /*position: relative;
-}
-/*
-.nav-tabs, .nav-pills {
-    text-align:center;
-}
-*/
-/* time to learn about positioning */
-/*
-.container {
-  border: 1px solid black;
-  float: left;
-}
-
-#content {
-  border: 1px solid red;
-  float: left;
-}
-
-#tabs {
-  border: 1px solid blue;
-  float: left;
-  text-align: center
-}
-
-.nav.nav-pills.custom {
-  border: 1px dotted orange;
-  float:left;
-}
-
-#my-tab-content {
-  border:1px solid green;
-  text-align: center;
-  float: left;
-}
-
-.tab-content {
-  border: 1px dotted blue;
-  float: left;
-}
-
-.tab-pane {
-  border: 1px dotted yellow;
-  float: left;
-}
-
-*/
