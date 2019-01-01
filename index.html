@@ -18,6 +18,7 @@
                 <li class="active header-tab"><a href="#home" data-toggle="tab">Home</a></li>
                 <li class="header-tab"><a href="#contact" data-toggle="tab">Contact</a></li>
                 <li class="header-tab"><a href="#projects" data-toggle="tab">Projects</a></li>
+                <li class="header-tab"><a href="#blog" data-toggle="tab">Blog</a></li>
             </ul>
             <div id="my-tab-content" class="tab-content">
                 <div class="tab-pane active" id="home">
@@ -76,12 +77,11 @@
                           mysql, docker, kubernetes, chef, terraform, AWS integration,
                           CI/CD, developer tooling, writing integration tests,
                           pagerduty, git/github, incident response, etc
-                          etc
                           </li>
                         </ul>
                     </p>
                     <p> Previous work:
-                        <h2>Airbnb, Payments Team</h2>
+                        <h2>Airbnb, Payments</h2>
                             <p>
                                 <ul>
                                     <li>Built out Employee Travel Credit Program and Airbnb Credit</li>
@@ -176,6 +176,16 @@
                         <br>facebook: <a href="https://www.facebook.com/melanie.cebula">facebook.com/melanie.cebula</a>
                         <br>
                     </p>
+                </div>
+                <div class="tab-pane" id="blog">
+                    <h1>Blog!</h1>
+											<div class="container single">
+												<article>
+													<h2>{{ .Title }}</h2>
+													<div class="time">{{ .Date.Format "Monday, December 31, 2018" }}</div>
+													{{ .Content }}
+												</article>
+											</div>
                 </div>
             </div>
         </div>
