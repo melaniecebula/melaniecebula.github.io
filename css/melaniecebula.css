@@ -1,0 +1,107 @@
+#tabs.custom > .active > a, .nav-pills > .active > a:hover, #tabs.nav.nav-pills.custom > li > a:hover {
+  outline: 0;
+}
+
+#content > #tabs > .header-tab > a {
+  color:white;
+  background-color: #66CCFF;
+}
+
+#content > #tabs > .header-tab > a:hover,  #content > #tabs > .header-tab.active > a {
+  color:white;
+  background-color: #5CB8E6;
+}
+
+.tab-pane {
+  font-weight: 100;
+  font-size: 150%;
+}
+
+.blue {
+  color: #66CCFF;
+}
+
+body {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+  line-height: 250%;
+}
+
+#content {
+  padding: 5%;
+}
+
+#header {
+  text-align:center;
+  width:100%;
+  font-weight: 100;
+  font-size: 300%;
+}
+
+#tabs {
+  padding-top: 5%;
+}
+
+.nav-tabs >li, .nav-pills > li {
+  float: none;
+  display: inline-block;
+}
+
+.nav-tabs, .nav-pills {
+  text-align: center;
+}
+
+.tab-content {
+  border-top: 2px inset #929090;
+  border-bottom: 2px inset #929090;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+#header {
+    font-size: 56px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 2%;
+}
+
+ol, ul {
+  padding: 1%;
+  padding-left: 3%;
+}
+
+li {
+  line-height: 150%;
+  padding: 1%;
+}
+
+.projects {
+  width: 50%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.profile-pic {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
