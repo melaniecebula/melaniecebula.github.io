@@ -9,15 +9,15 @@
 		<managingEditor>melaniecebula.bass@gmail.com (Melanie Cebula)</managingEditor>
 		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
 		<copyright>Melanie Cebula — All rights reserved.</copyright>
+		<lastBuildDate>Thu, 23 Nov 2017 23:42:05 +0100</lastBuildDate>
 		<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
 		<item>
-			<title></title>
+			<title>About</title>
 			<link>/about/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+			<pubDate>Thu, 23 Nov 2017 23:42:05 +0100</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
 			<guid>/about/</guid>
-			<description>&lt;h1&gt; About &lt;/h1&gt;
-&lt;p&gt;
+			<description>&lt;p&gt;
     I&#39;m Melanie.  I&#39;m a software engineer. I live in San
     Francisco, but travel often and sometimes work remotely.
     Currently, I work on infrastructure at Airbnb.
@@ -98,6 +98,27 @@
                 &lt;li&gt;Pages Draft Posts for iOS: Page admins can create, edit, delete, and publish drafts&lt;/li&gt;
             &lt;/ul&gt;
         &lt;/p&gt;
+&lt;/p&gt;
+</description>
+		</item>
+		<item>
+			<title>Talks</title>
+			<link>/talks/</link>
+			<pubDate>Thu, 23 Nov 2017 23:42:05 +0100</pubDate>
+			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
+			<guid>/talks/</guid>
+			<description>&lt;p&gt;
+  Here are some external talks I&#39;ve given.
+&lt;/p&gt;
+
+&lt;h1&gt; KubeCon NA 2018, keynote &lt;/h1&gt;
+&lt;p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ytu3aUCwlSg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h1&gt; FutureStack NYC 2017 &lt;/h1&gt;
+&lt;p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/N1BWMW9NEQc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 </description>
 		</item>
