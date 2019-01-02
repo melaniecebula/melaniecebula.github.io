@@ -121,7 +121,10 @@ contributions if you&amp;rsquo;d like).&lt;/p&gt;
 &lt;li&gt;Spectre/Meltdown fallout continued into January (we also experience peak load in early January&amp;ndash; fun!)&lt;/li&gt;
 &lt;li&gt;This one guy in PR kept trying to stop me from speaking and was super rude&lt;/li&gt;
 &lt;li&gt;Unexpected and sudden departure of two close teammates :(&lt;/li&gt;
-&lt;li&gt;Imposter syndrome my old friend&lt;/li&gt;
+&lt;li&gt;Imposter syndrome, my old friend&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;hey melanie can you debug this because you touched this code at some point and it&amp;rsquo;s probably your fault, please prove me wrong&amp;rdquo; (I actually generally like debugging issues, but I &lt;strong&gt;hate&lt;/strong&gt; any assumptions that a problem is my fault and that I am itherefore obligated to investigate, and this happened a bunch of times)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;hey melanie, why aren&amp;rsquo;t you rolling back this totally broken infra change&amp;rdquo; and &amp;ldquo;hey melanie, why are you rolling back my totally broken infra change&amp;rdquo; (AKA between a customer engineer and an infra engineer)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;hey melanie, you worked on this before so can you do this additional work that we want to happen but don&amp;rsquo;t want to do&amp;rdquo; (negative side effect of working on everything)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Highlights:&lt;/p&gt;
