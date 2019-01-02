@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/my-first-post/</loc>
+    <loc>http://melaniecebula.github.io/posts/my-first-post/</loc>
     <lastmod>2018-12-31T18:18:25-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>http://melaniecebula.github.io/about/</loc>
     <lastmod>2017-11-23T23:42:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talks/</loc>
+    <loc>http://melaniecebula.github.io/talks/</loc>
     <lastmod>2017-11-23T23:42:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://melaniecebula.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://melaniecebula.github.io/</loc>
     <lastmod>2018-12-31T18:18:25-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>http://melaniecebula.github.io/posts/</loc>
     <lastmod>2018-12-31T18:18:25-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>http://melaniecebula.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://melaniecebula.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

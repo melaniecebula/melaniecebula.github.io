@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Melanie Cebula&#39;s Blog</title>
-		<link>/</link>
+		<link>http://melaniecebula.github.io/</link>
 		<description>Recent content on Melanie Cebula&#39;s Blog</description>
 		<generator>Hugo 0.53 -- gohugo.io</generator>
 		<language>en</language>
@@ -10,13 +10,13 @@
 		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
 		<copyright>Melanie Cebula — All rights reserved.</copyright>
 		<lastBuildDate>Mon, 31 Dec 2018 18:18:25 -0800</lastBuildDate>
-		<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://melaniecebula.github.io/index.xml" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Starting a Blog</title>
-			<link>/posts/my-first-post/</link>
+			<link>http://melaniecebula.github.io/posts/my-first-post/</link>
 			<pubDate>Mon, 31 Dec 2018 18:18:25 -0800</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>/posts/my-first-post/</guid>
+			<guid>http://melaniecebula.github.io/posts/my-first-post/</guid>
 			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I knew I
 wanted to speak at a technical conference, but I had zero experience finding
 conferences, filling out
@@ -50,10 +50,10 @@ and non-binary folk about infrastructure.&lt;/p&gt;
 		</item>
 		<item>
 			<title>About</title>
-			<link>/about/</link>
+			<link>http://melaniecebula.github.io/about/</link>
 			<pubDate>Thu, 23 Nov 2017 23:42:05 +0100</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>/about/</guid>
+			<guid>http://melaniecebula.github.io/about/</guid>
 			<description>&lt;p&gt;
     I&#39;m Melanie.  I&#39;m a software engineer. I live in San
     Francisco, but travel often.
@@ -140,10 +140,10 @@ and non-binary folk about infrastructure.&lt;/p&gt;
 		</item>
 		<item>
 			<title>Talks</title>
-			<link>/talks/</link>
+			<link>http://melaniecebula.github.io/talks/</link>
 			<pubDate>Thu, 23 Nov 2017 23:42:05 +0100</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>/talks/</guid>
+			<guid>http://melaniecebula.github.io/talks/</guid>
 			<description>&lt;p&gt;
   Here are some external talks I&#39;ve given. Reach out if you&#39;d like me to speak
   at your conference!

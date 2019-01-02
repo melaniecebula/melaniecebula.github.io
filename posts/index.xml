@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Melanie Cebula&#39;s Blog</title>
-		<link>/posts/</link>
+		<link>http://melaniecebula.github.io/posts/</link>
 		<description>Recent content in Posts on Melanie Cebula&#39;s Blog</description>
 		<generator>Hugo 0.53 -- gohugo.io</generator>
 		<language>en</language>
@@ -10,13 +10,13 @@
 		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
 		<copyright>Melanie Cebula — All rights reserved.</copyright>
 		<lastBuildDate>Mon, 31 Dec 2018 18:18:25 -0800</lastBuildDate>
-		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://melaniecebula.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Starting a Blog</title>
-			<link>/posts/my-first-post/</link>
+			<link>http://melaniecebula.github.io/posts/my-first-post/</link>
 			<pubDate>Mon, 31 Dec 2018 18:18:25 -0800</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>/posts/my-first-post/</guid>
+			<guid>http://melaniecebula.github.io/posts/my-first-post/</guid>
 			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I knew I
 wanted to speak at a technical conference, but I had zero experience finding
 conferences, filling out
