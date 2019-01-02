@@ -9,45 +9,8 @@
 		<managingEditor>melaniecebula.bass@gmail.com (Melanie Cebula)</managingEditor>
 		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
 		<copyright>Melanie Cebula — All rights reserved.</copyright>
-		<lastBuildDate>Mon, 31 Dec 2018 18:18:25 -0800</lastBuildDate>
+		<lastBuildDate>Thu, 23 Nov 2017 23:42:05 +0100</lastBuildDate>
 		<atom:link href="http://melaniecebula.github.io/index.xml" rel="self" type="application/rss+xml" />
-		<item>
-			<title>Starting a Blog</title>
-			<link>http://melaniecebula.github.io/posts/my-first-post/</link>
-			<pubDate>Mon, 31 Dec 2018 18:18:25 -0800</pubDate>
-			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>http://melaniecebula.github.io/posts/my-first-post/</guid>
-			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I knew I
-wanted to speak at a technical conference, but I had zero experience finding
-conferences, filling out
-abstracts, and submitting before CFPs close. I gave a first talk at FutureStack 2017,
-but that was a bit different since it was a vendor conference and Airbnb was
-invited to speak there. Also a manager signed me up before telling me about it
-(thanks Joey!), so it wasn&amp;rsquo;t planned. So I started submitting proposals in the
-middle of summer 2018. I got a
-rejection, and three acceptances (yay!), and I was surprised by a keynote
-acceptance. I ended up speaking at ONS Europe in
-Amsterdam in September, and KubeCon NA in December. The ONS talk wasn&amp;rsquo;t
-recorded, but it was also more of a practice run of the content I would finalize
-for KubeCon NA. I couldn&amp;rsquo;t squeeze in VelocityConf NYC into my schedule, and was
-sad to miss it (but I was having fun in Hong Kong instead). Also I started to
-receive pointed questions about whether I could really code if I&amp;rsquo;m constantly
-speaking/travelling :). And to be fair, I care a LOT about the quality of my
-slides, and it is time consuming for me to make them.&lt;/p&gt;
-
-&lt;p&gt;What I was most terrified about was standing up there and saying something
-universally Wrong or Bad. But people were engaged. There was note-taking,
-picture-taking, &amp;ldquo;aha&amp;rdquo;s, and a lot of followup discussion both in person and on
-twitter.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../img/github_work_2018.png&#34;&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;img/github_personal_2018.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;I also attended a few meetups and conferences, my favorite of which was Building
-Upwards by Vicki Cheung at Lyft. I loved listening to and chatting with women
-and non-binary folk about infrastructure.&lt;/p&gt;
-</description>
-		</item>
 		<item>
 			<title>About</title>
 			<link>http://melaniecebula.github.io/about/</link>
