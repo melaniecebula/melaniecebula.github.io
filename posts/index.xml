@@ -12,12 +12,27 @@
 		<lastBuildDate>Mon, 31 Dec 2018 18:18:25 -0800</lastBuildDate>
 		<atom:link href="http://melaniecebula.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		<item>
-			<title>Starting a Blog</title>
+			<title>Starting a Blog and 2018 in Review</title>
 			<link>http://melaniecebula.github.io/posts/my-first-post/</link>
 			<pubDate>Mon, 31 Dec 2018 18:18:25 -0800</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
 			<guid>http://melaniecebula.github.io/posts/my-first-post/</guid>
-			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I knew I
+			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I had a
+few goals:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Speak at more technical conferences&lt;/li&gt;
+&lt;li&gt;Engage with other people/companies on twitter&lt;/li&gt;
+&lt;li&gt;Start a technical blog&lt;/li&gt;
+&lt;li&gt;Contribute to more open source&lt;/li&gt;
+&lt;li&gt;Attend more events aimed at women/non-binary folks (and maybe organize one!)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how I did.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speak at more technical conferences&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I knew I
 wanted to speak at a technical conference, but I had zero experience finding
 conferences, filling out
 abstracts, and submitting before CFPs close. I gave a first talk at FutureStack 2017,
@@ -30,22 +45,74 @@ acceptance. I ended up speaking at ONS Europe in
 Amsterdam in September, and KubeCon NA in December. The ONS talk wasn&amp;rsquo;t
 recorded, but it was also more of a practice run of the content I would finalize
 for KubeCon NA. I couldn&amp;rsquo;t squeeze in VelocityConf NYC into my schedule, and was
-sad to miss it (but I was having fun in Hong Kong instead). Also I started to
-receive pointed questions about whether I could really code if I&amp;rsquo;m constantly
-speaking/travelling :). And to be fair, I care a LOT about the quality of my
-slides, and it is time consuming for me to make them.&lt;/p&gt;
+sad to miss it (but I was having fun in Hong Kong instead). I love giving talks,
+but they&amp;rsquo;re time consuming for me. In addition to practicing the presentation, I
+spend a lot of hours drafting content and finalizing the slides. I spent even
+more time polishing my KubeCon slides, because I knew a lot of people would see
+it :).&lt;/p&gt;
 
 &lt;p&gt;What I was most terrified about was standing up there and saying something
 universally Wrong or Bad. But people were engaged. There was note-taking,
 picture-taking, &amp;ldquo;aha&amp;rdquo;s, and a lot of followup discussion both in person and on
-twitter.&lt;/p&gt;
+twitter. What I loved most was meeting with people and other companies and
+comparing/constrasting how we&amp;rsquo;ve tried to solve different problems. And there
+are a lot of problems when you completely change your infrastructure to
+Kubernetes. I walked away with a treasure trove of notes and ideas to share with
+our infra teams, and feel re-energized about many of the technical and
+organizational problems we&amp;rsquo;ve been facing.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../img/github_work_2018.png&#34;&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;img/github_personal_2018.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;status: super success!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Engage with other people/companies on twitter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I started picking up my twitter game shortly before the conferences. I put my
+twitter handle on all my slides too :). I got a TON of engagement from KubeCon. I
+went from ~400 to ~1000 followers, and finally feel engaged on the platform.
+It&amp;rsquo;s a great way to see where things are going in infra in real-time.&lt;/p&gt;
+
+&lt;p&gt;status: success&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Start a technical blog&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, I started setting up this blog on December 30th. I waffled a bit on how to
+setup it up, but settled for using hugo.&lt;/p&gt;
+
+&lt;p&gt;status: kinda?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contribute to more open source&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I set up kubernetes locally and commented on and tried to work on an issue. Liz
+Frost gave me a lot of 1:1 help reproing the issue. But the issue was too hard
+for me to complete on a compressed timeframe at KubeCon :). So I&amp;rsquo;ll have to pick
+this up later.&lt;/p&gt;
+
+&lt;p&gt;There was an uptick on open source contributions from Airbnb engineers in 2018
+(My coworker Ramya found a scheduler bug related to balancing pods across
+availability zones, and her fix will be in 1.14!!), and we&amp;rsquo;ll likely make more
+contributions in 2019. For example, I know our Continuous Integration team is looking at current
+open source image building solutions, and our Continuous Delivery team is
+looking at moving us to Spinnaker.&lt;/p&gt;
+
+&lt;p&gt;status: failure, I can do better!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Attend more events aimed at women/non-binary folks (and maybe organize one!)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I also attended a few meetups and conferences, my favorite of which was Building
 Upwards by Vicki Cheung at Lyft. I loved listening to and chatting with women
-and non-binary folk about infrastructure.&lt;/p&gt;
+and non-binary folk about infrastructure. I wanted to plan one of these for late
+2018 at Airbnb HQ, but we&amp;rsquo;re pushing it to 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2018 Contributions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Overall, I did a lot of coding in 2018 at work:
+&lt;img src=&#34;http://melaniecebula.github.io/img/github_work_2018.png&#34; alt=&#34;work github&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the darker green boxes were actually automated refactors of 100+
+services (now you can run refactors as a bot user to not mess with your
+contributions if you&amp;rsquo;d like).&lt;/p&gt;
+
+&lt;p&gt;I worked on a lot of interesting problems this year, and look forward to sharing
+my solutions now that the blog is up!&lt;/p&gt;
 </description>
 		</item>
 	</channel>
