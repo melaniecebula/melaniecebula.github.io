@@ -119,12 +119,10 @@ contributions if you&amp;rsquo;d like).&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Spectre/Meltdown fallout continued into January (we also experience peak load in early January&amp;ndash; fun!)&lt;/li&gt;
-&lt;li&gt;This one guy in PR kept trying to stop me from speaking and was super rude&lt;/li&gt;
+&lt;li&gt;This one guy in PR kept trying to stop me from speaking and was super rude about it&lt;/li&gt;
 &lt;li&gt;Unexpected and sudden departure of two close teammates :(&lt;/li&gt;
-&lt;li&gt;Imposter syndrome, my old friend&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;hey melanie can you debug this because you touched this code at some point and it&amp;rsquo;s probably your fault, please prove me wrong&amp;rdquo; (I actually generally like debugging issues, but I &lt;strong&gt;hate&lt;/strong&gt; any assumptions that a problem is my fault and that I am therefore obligated to investigate, and this happened a bunch of times)&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;hey melanie, you worked on this before so can you do this additional work that we want to happen but don&amp;rsquo;t want to do&amp;rdquo; (negative side effect of working on everything&amp;ndash; sometimes it can all add up)&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;we&amp;rsquo;ve intentionally contorted our OKRs so we don&amp;rsquo;t have to make this work for kubernetes services&amp;rdquo; (thankfully this goes down as adoption increases)&lt;/li&gt;
+&lt;li&gt;Imposter syndrome was a bitch, again&lt;/li&gt;
+&lt;li&gt;People trying to get me to debug stuff by implying an issue is somehow my fault (just ask nicely and I&amp;rsquo;m usually happy to jump on an issue, I actually enjoy debugging)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Highlights:&lt;/p&gt;
