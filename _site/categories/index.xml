@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+	<channel>
+		<title>Categories on Melanie Cebula&#39;s Blog</title>
+		<link>https://melaniecebula.github.io/categories/</link>
+		<description>Recent content in Categories on Melanie Cebula&#39;s Blog</description>
+		<generator>Hugo 0.53 -- gohugo.io</generator>
+		<language>en</language>
+		<managingEditor>melaniecebula.bass@gmail.com (Melanie Cebula)</managingEditor>
+		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
+		<copyright>Melanie Cebula — All rights reserved.</copyright>
+		<atom:link href="https://melaniecebula.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
+</rss>
