@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://melaniecebula.github.io/posts/my-first-post/</loc>
+    <loc>https://melaniecebula.github.io/posts/my-first-post/</loc>
     <lastmod>2019-01-02T08:42:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/about/</loc>
+    <loc>https://melaniecebula.github.io/about/</loc>
     <lastmod>2017-11-23T23:42:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/talks/</loc>
+    <loc>https://melaniecebula.github.io/talks/</loc>
     <lastmod>2017-11-23T23:42:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/categories/</loc>
+    <loc>https://melaniecebula.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/</loc>
+    <loc>https://melaniecebula.github.io/</loc>
     <lastmod>2019-01-02T08:42:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/posts/</loc>
+    <loc>https://melaniecebula.github.io/posts/</loc>
     <lastmod>2019-01-02T08:42:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/series/</loc>
+    <loc>https://melaniecebula.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://melaniecebula.github.io/tags/</loc>
+    <loc>https://melaniecebula.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
