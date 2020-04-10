@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Melanie Cebula&#39;s Blog</title>
-		<link>http://melaniecebula.github.io/posts/</link>
+		<link>https://melaniecebula.github.io/posts/</link>
 		<description>Recent content in Posts on Melanie Cebula&#39;s Blog</description>
 		<generator>Hugo 0.53 -- gohugo.io</generator>
 		<language>en</language>
@@ -10,13 +10,13 @@
 		<webMaster>melaniecebula.bass@gmail.com (Melanie Cebula)</webMaster>
 		<copyright>Melanie Cebula — All rights reserved.</copyright>
 		<lastBuildDate>Wed, 02 Jan 2019 08:42:58 +0000</lastBuildDate>
-		<atom:link href="http://melaniecebula.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://melaniecebula.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Starting a Blog and 2018 in Review</title>
-			<link>http://melaniecebula.github.io/posts/my-first-post/</link>
+			<link>https://melaniecebula.github.io/posts/my-first-post/</link>
 			<pubDate>Wed, 02 Jan 2019 08:42:58 +0000</pubDate>
 			<author>melaniecebula.bass@gmail.com (Melanie Cebula)</author>
-			<guid>http://melaniecebula.github.io/posts/my-first-post/</guid>
+			<guid>https://melaniecebula.github.io/posts/my-first-post/</guid>
 			<description>&lt;p&gt;In 2018 I decided to engage more with the larger technical community. I had a
 few goals:&lt;/p&gt;
 
@@ -107,7 +107,7 @@ and non-binary folk about infrastructure. I wanted to plan one of these for late
 &lt;p&gt;&lt;strong&gt;2018 Contributions&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Overall, I did a lot of coding in 2018 at work:
-&lt;img src=&#34;http://melaniecebula.github.io/img/github_work_2018.png&#34; alt=&#34;work github&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://melaniecebula.github.io/img/github_work_2018.png&#34; alt=&#34;work github&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Although the darker green boxes were actually automated refactors of 100+
 services (now you can run refactors as a bot user to not mess with your
